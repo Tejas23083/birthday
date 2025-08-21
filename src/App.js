@@ -16,7 +16,7 @@ const memoryPhotos = [
 const memoryVideos = [
   {
     id: 1,
-    src: "../public/10.mp4",
+    src: "10.mp4",
     caption: "Cuteness 😍",
     className: "",
   },
