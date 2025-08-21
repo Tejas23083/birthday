@@ -16,31 +16,31 @@ const memoryPhotos = [
 const memoryVideos = [
   {
     id: 1,
-    src: "10.mp4",
+    src: "/birthday/10.mp4",
     caption: "Cuteness 😍",
     className: "",
   },
   {
     id: 2,
-    src: "8.mp4",
+    src: "/birthday/8.mp4",
     caption: "",
     className: ""
   },
   {
     id: 3,
-    src: "14.mp4",
+    src: "/birthday/14.mp4",
     caption: "",
     className: ""
   },
   {
     id: 4,
-    src: "12.mp4",
+    src: "/birthday/12.mp4",
     caption: "",
     className: ""
   },
   {
     id: 5,
-    src: "13.mp4",
+    src: "/birthday/13.mp4",
     caption: "",
     className: ""
   },
@@ -275,7 +275,7 @@ return (
 
       <div className="extra-video">
         <video loop controls>
-          <source src="videosay.mp4" type="video/mp4" />
+          <source src="/birthday/videosay.mp4" type="video/mp4" />
         </video>
         <p className="caption">🌟A Special Video For You🌟</p>
       </div>
