@@ -16,35 +16,34 @@ const memoryPhotos = [
 const memoryVideos = [
   {
     id: 1,
-    src: "/birthday/10.mp4",
+    src: `${process.env.PUBLIC_URL}/10.mp4`,
     caption: "Cuteness 😍",
     className: "",
   },
   {
     id: 2,
-    src: "/birthday/8.mp4",
+    src: `${process.env.PUBLIC_URL}/8.mp4`,
     caption: "",
     className: ""
   },
   {
     id: 3,
-    src: "/birthday/14.mp4",
+    src: `${process.env.PUBLIC_URL}/14.mp4`,
     caption: "",
     className: ""
   },
   {
     id: 4,
-    src: "/birthday/12.mp4",
+    src: `${process.env.PUBLIC_URL}/12.mp4`,
     caption: "",
     className: ""
   },
   {
     id: 5,
-    src: "/birthday/13.mp4",
+    src: `${process.env.PUBLIC_URL}/13.mp4`,
     caption: "",
     className: ""
   },
-  
 ];
 
 const Confetti = () => {
@@ -273,12 +272,13 @@ return (
         </p>
       </div>
 
-      <div className="extra-video">
-        <video loop controls>
-          <source src="/birthday/videosay.mp4" type="video/mp4" />
-        </video>
-        <p className="caption">🌟A Special Video For You🌟</p>
-      </div>
+        <div className="extra-video">
+          <video loop controls>
+            <source src={`${process.env.PUBLIC_URL}/videosay.mp4`} type="video/mp4" />
+          </video>
+          <p className="caption">🌟A Special Video For You🌟</p>
+        </div>
+
     </div>
 
 
