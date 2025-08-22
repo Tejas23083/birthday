@@ -13,12 +13,46 @@ const memoryPhotos = [
   { id: 7, src: "18.jpeg", caption: "The Beautifulness 😍", className: "photo" }
 ];
 
-const memoryVideos = [
-  { id: 1, src: "/birthday/public/10.mp4", caption: "Cuteness 😍" },
-  { id: 2, src: "https://vimeo.com/1111923223?share=copy", caption: "" },
-  { id: 3, src: "/birthday/public/14.mp4", caption: "" },
-  { id: 4, src: "/birthday/public/12.mp4", caption: "" },
-  { id: 5, src: "/birthday/public/13.mp4", caption: "" },
+// const memoryVideos = [
+//   {
+//     id: 1,
+//     src: "10.mp4",
+//     caption: "Cuteness 😍",
+//     className: "",
+//   },
+//   {
+//     id: 2,
+//     src: "8.mp4",
+//     caption: "",
+//     className: ""
+//   },
+//   {
+//     id: 3,
+//     src: "14.mp4",
+//     caption: "",
+//     className: ""
+//   },
+//   {
+//     id: 4,
+//     src: "12.mp4",
+//     caption: "",
+//     className: ""
+//   },
+//   {
+//     id: 5,
+//     src: "13.mp4",
+//     caption: "",
+//     className: ""
+//   },
+  
+// ];
+
+const memoryGallery = [
+  { id: 1, src: "15.jpeg" },
+  { id: 2, src: "20.jpeg"},
+  { id: 3, src: "26.jpeg"},
+  { id: 4, src: "25.jpeg" },
+  { id: 5, src: "23.jpeg" }
 ];
 
 const Confetti = () => {
@@ -222,36 +256,47 @@ return (
         <h3>Cuteness overloaded 💖</h3>
       </div>
 
+      {/* Videos Grid */}
+      {/* <div className="video-grid">
+        {memoryVideos.map((video) => (
+          <div className="video-item" key={video.id}>
+            <video autoPlay loop muted playsInline controls>
+              <source src={video.src} type="video/mp4" />
+            </video>
+            <p className="caption">{video.caption}</p>
+          </div>
+        ))}
+      </div> */}
+
       {/* Photos Grid */}
-    <div className="image-grid">
-      {memoryPhotos.map((photo) => (
-        <div className="image-item" key={photo.id}>
-          <img src={photo.src} alt={photo.caption} className="photo" />
-          <p className="caption">{photo.caption}</p>
-        </div>
-      ))}
-    </div>
+          <div className="gallery-grid">
+  {memoryGallery.map((photo) => (
+    <img
+      key={photo.id}
+      src={photo.src}
+      alt="memory"
+      className="gallery-photo"
+    />
+  ))}
+</div>
 
       <div className="extra-video-section">
       <div className="extra-text">
-        <h2>💜 A Special Moment 💜</h2>
+        <h2>💜 Saylii.. 💜</h2>
         <p>
           Happy Birthday to the one who makes my heart skip a beat every time I see you. 
           You’re honestly so special to me, more than you probably even realize. 
           Just your presence makes everything around me feel brighter and more beautiful. 
           I really admire the way you are, and I feel lucky to even know you. On your birthday, 
           I just want you to know how much you mean to me—you’re truly unforgettable, and 
-          I hope this year brings you all the happiness you deserve. 🌸✨
+          I hope this year brings you all the happiness you deserve. And important Line For You <b>“Be yourself, just as you are.”</b> .🌸✨
         </p>
       </div>
 
-        <div className="extra-video">
-  <video loop controls>
-    <source src="/birthday/public/videosay.mp4" type="video/mp4" />
-  </video>
-  <p className="caption">🌟A Special Video For You🌟</p>
-</div>
-
+        <div className="extra-photo">
+        <img src="21.jpeg" alt="Special Memory" />
+        <p className="caption">🌟A Special Photo For You🌟</p>
+      </div>
     </div>
 
 
@@ -260,7 +305,6 @@ return (
     </div>
   );
 };
-
 
 export default App;
 
