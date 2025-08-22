@@ -289,7 +289,7 @@ return (
           Just your presence makes everything around me feel brighter and more beautiful. 
           I really admire the way you are, and I feel lucky to even know you. On your birthday, 
           I just want you to know how much you mean to me—you’re truly unforgettable, and 
-          I hope this year brings you all the happiness you deserve. And important Line For You <b>“Be yourself, just as you are.”</b> .🌸✨
+          I hope this year brings you all the happiness you deserve. And Important Line For You <b>“Be yourself, just as you are.”</b> .🌸✨
         </p>
       </div>
 
