@@ -284,7 +284,7 @@ return (
       <div className="extra-text">
         <h2>💜 Saylii.. 💜</h2>
         <p>
-          Happy Birthday to the one who makes my heart skip a beat every time I see you. 
+          Once Again Happy Birthday to the one who makes my heart skip a beat every time I see you. 
           You’re honestly so special to me, more than you probably even realize. 
           Just your presence makes everything around me feel brighter and more beautiful. 
           I really admire the way you are, and I feel lucky to even know you. On your birthday, 
@@ -295,7 +295,7 @@ return (
 
         <div className="extra-photo">
         <img src="21.jpeg" alt="Special Memory" />
-        <p className="caption">🌟A Special Photo For You🌟</p>
+        <p className="caption"></p>
       </div>
     </div>
 
