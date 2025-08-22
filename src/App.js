@@ -15,7 +15,7 @@ const memoryPhotos = [
 
 const memoryVideos = [
   { id: 1, src: "/birthday/public/10.mp4", caption: "Cuteness 😍" },
-  { id: 2, src: "/birthday/public/8.mp4", caption: "" },
+  { id: 2, src: "https://vimeo.com/1111923223?share=copy", caption: "" },
   { id: 3, src: "/birthday/public/14.mp4", caption: "" },
   { id: 4, src: "/birthday/public/12.mp4", caption: "" },
   { id: 5, src: "/birthday/public/13.mp4", caption: "" },
@@ -222,17 +222,15 @@ return (
         <h3>Cuteness overloaded 💖</h3>
       </div>
 
-      {/* Videos Grid */}
-      <div className="video-grid">
-        {memoryVideos.map((video) => (
-          <div className="video-item" key={video.id}>
-            <video autoPlay loop muted playsInline controls>
-              <source src={video.src} type="video/mp4" />
-            </video>
-            <p className="caption">{video.caption}</p>
-          </div>
-        ))}
-      </div>
+      {/* Photos Grid */}
+    <div className="image-grid">
+      {memoryPhotos.map((photo) => (
+        <div className="image-item" key={photo.id}>
+          <img src={photo.src} alt={photo.caption} className="photo" />
+          <p className="caption">{photo.caption}</p>
+        </div>
+      ))}
+    </div>
 
       <div className="extra-video-section">
       <div className="extra-text">
@@ -262,6 +260,7 @@ return (
     </div>
   );
 };
+
 
 export default App;
 
