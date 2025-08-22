@@ -5,7 +5,7 @@ import './App.css';
 
 const memoryPhotos = [
   { id: 1, src: "3.jpeg", caption: "1st Picture You Send Me On Snap 😍", className: "photo" },
-  { id: 2, src: "4.jpeg", caption: "You Give Me Sona 😄 ", className: "photo" },
+  { id: 2, src: "4.jpeg", caption: "Tu Pahilyanda Dilela Sona 😄 ", className: "photo" },
   { id: 3, src: "5.jpeg", caption: "Your Beautiful Mandala Art 🤩", className: "photo" },
   { id: 4, src: "7.jpeg", caption: "The Smile 👌", className: "photo" },
   { id: 5, src: "9.jpeg", caption: "Cutiie", className: "photo" },
