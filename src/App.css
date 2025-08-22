@@ -603,10 +603,9 @@ p {
 }
 
 .extra-text p {
-  font-family: 'Dancing Script', cursive;
-  font-size: 2rem;
-  color: #facc15; /* golden shade */
-  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #facc15; /* golden */
+  line-height: 1.6;
   text-shadow: 0 0 8px rgba(250, 204, 21, 0.8),
                0 0 15px rgba(255, 223, 100, 0.6),
                0 0 25px rgba(255, 215, 0, 0.5);
